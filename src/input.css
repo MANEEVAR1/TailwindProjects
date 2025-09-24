@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme{
+    --font-raleway:"Raleway", sans-serif;
+    --font-playfair:"Playfair Display", serif;
+    --font-montserrat:"Montserrat", sans-serif;
+    --color-custom-mint:oklch(0.72 0.11 178);
+    --font-vibes:"Great Vibes", cursive;
+    --font-orbitron:"Orbitron", sans-serif;
+    --breakpoint-3xs:320px;
+    --breakpoint-2xs:375px;
+    --breakpoint-xs:425px;
+    --breakpoint-sm:640px;
+    --breakpoint-md:768px;
+    --breakpoint-lg:1024px;
+    --breakpoint-xl:1280px;
+    --breakpoint-xl_p2:1496px;
+    --breakpoint-2xl:1536px;
+    --breakpoint-3xl:1920px;
+    --breakpoint-4xl:2560px;
+    /* --breakpoint-xl_p2:1496px; */
+    /* --breakpoint-fifteen:1536px; */
+    /* --breakpoint-meds:540px; */
+
+}
+
+/* #hero {
+  @apply bg-blue-500 text-white p-6 h-[10vh];
+} */
